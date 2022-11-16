@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ratingscomments',
+    'bookdetail',
     'rest_framework',
 
 ]
@@ -81,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bookstorelucky13',
         'USER': 'postgres',
-        'PASSWORD': '07102003@Lv',
+        'PASSWORD': 'Alcon@123',
         'HOST': 'localhost',
         'PORT': '5432',
     }
