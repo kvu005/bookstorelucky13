@@ -37,11 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bookdetail',
-    'shoppingcart',
     'ratingscomments',
-    'browsingsort',
-    'profilemanagement',
+    'rest_framework',
+
 ]
 
 MIDDLEWARE = [
@@ -83,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bookstorelucky13',
         'USER': 'postgres',
-        'PASSWORD': 'Alcon@123',
+        'PASSWORD': '07102003@Lv',
         'HOST': 'localhost',
         'PORT': '5432',
     }
