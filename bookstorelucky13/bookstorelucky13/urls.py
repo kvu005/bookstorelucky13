@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('ratingscomments.urls')),
     path('', include('bookdetail.urls')),
+    path('',include('browsing.urls')),
 ]
