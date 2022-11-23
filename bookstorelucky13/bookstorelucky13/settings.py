@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'ratingscomments',
     'bookdetail',
     'browsing',
+    'shoppingcart',
     'rest_framework',
 
 ]
@@ -83,9 +84,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bookstorelucky13',
         'USER': 'postgres',
-        'PASSWORD': 'K@rina99',
+        'PASSWORD': 'Itsthebae411k?',
         'HOST': 'localhost',
-        'PORT': '5433',
+        'PORT': '5432',
     }
 }
 
