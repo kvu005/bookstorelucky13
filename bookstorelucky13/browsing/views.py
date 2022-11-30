@@ -103,7 +103,7 @@ def genre(request,feature):
 @csrf_exempt
 def top_seller(request):
     try: 
-        book = Books.objects.all().order_by('-CopiesSold')[:5]
+        book = Books.objects.all().order_by('-CopiesSold')[:10]
     except:
          return HttpResponse(status=404)
     if request.method == 'GET':
